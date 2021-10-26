@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa4c6b4d-6d22-4a75-b36d-25e0374a5b19" name="Changes" comment="" />
+    <list default="true" id="fa4c6b4d-6d22-4a75-b36d-25e0374a5b19" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songr/src/main/java/com/example/songr/Repositories/AlbumRepositories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songr/src/main/resources/templates/Result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songr/src/main/resources/templates/allAlbums.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songr/src/main/resources/templates/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songr/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/songr/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songr/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/songr/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songr/src/main/java/com/example/songr/controler/AlbumsArt.java" beforeDir="false" afterPath="$PROJECT_DIR$/songr/src/main/java/com/example/songr/controler/AlbumsArt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songr/src/main/java/com/example/songr/model/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/songr/src/main/java/com/example/songr/model/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songr/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/songr/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songr/src/main/resources/templates/Album.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,8 +41,32 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="JPA Inspector" value="true" />
+        <entry key="JPA Palette" value="true" />
+        <entry key="JPA Structure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="JPA Inspector" value="false" />
+        <entry key="JPA Palette" value="false" />
+        <entry key="JPA Structure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="ProjectId" id="1zzsou93K9D9Q39GNHpJZqzwHuR" />
   <component name="ProjectViewState">
@@ -36,9 +74,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/songr" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/data-structure-algorathem401/stack-and-queue" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SongrApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.songr.SongrApplication" />
+      <module name="songr.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.songr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SongrApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -50,5 +110,22 @@
       <updated>1635162429232</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/songr__1_$SongrApplication.ic" NAME="SongrApplication Coverage Results" MODIFIED="1635259552300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.songr.*</FILTER>
+    </SUITE>
   </component>
 </project>
