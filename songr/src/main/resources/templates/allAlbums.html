@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<header>
+    <h1>Songer Apllication</h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/addAlbumsForm">Add New Album</a>
+    </nav>
+</header>
+<h1>This Is The Most Famous Albums List</h1>
+<div th:each="album :${album}">
+    <img th:src="${album.getImageUrl}">
+    <ul>
+        <li>Album Title: <span th:text="${album.getTitle}"></span></li>
+        <li>Artist: <span th:text="${album.getArtist}"></span></li>
+        <li> Number of songs: <span th:text="${album.getSongCount}"></span></li>
+        <li>Album length in seconds: <span th:text="${album.getLength}"></span></li>
+    </ul>
+
+</div>
+</body>
+</html>

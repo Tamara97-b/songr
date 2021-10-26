@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Result</h1>
+<p th:text="'Album Title: ' + ${album.title}"></p>
+<p th:text="'Artist Name: ' + ${album.artist}"></p>
+<p th:text="'Songs Number: ' + ${album.songCount}"></p>
+<p th:text="'Album length in seconds: ' + ${album.length}"></p>
+<img th:src="${album.getImageUrl}"  ><br><br>
+<a href="/addAlbumsForm">Submit another Album</a>
+</body>
+</html>
