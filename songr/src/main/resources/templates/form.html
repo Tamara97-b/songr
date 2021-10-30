@@ -6,39 +6,7 @@
 
 </head>
 <body>
-<!--<tr th:each="Album: ${album}">-->
-<!--    <td th:text="${album.title}" />-->
-<!--    <td  th:text="${album.artist}" />-->
-<!--    <td  th:text="${album.songCount}" />-->
-<!--    <td  th:text="${album.length}" />-->
-<!--   <img style="border: 1px solid #ddd;-->
-<!--  border-radius: 4px;-->
-<!--  padding: 5px;-->
-<!--  width: 150px;" th:src="${album.imageUrl}"/>-->
 
-<!--</tr>-->
-
-<!--<form th:action="@{/addAlbumsForm" th:object="${album}" method="post">-->
-<!--    <label>Add Album </label>-->
-<!--    <fieldset id="fieldset">-->
-<!--        <label>Title </label>-->
-<!--        <input type="text" field="*{title}" name="title" />-->
-<!--        <br><br>-->
-<!--        <label>Artist </label>-->
-<!--        <input type="text" field="*{artist}" name="artist" />-->
-<!--        <br><br>-->
-<!--        <label>Song Count </label>-->
-<!--        <input type="songCount" field="*{songCount}" name="songCount" />-->
-<!--        <br><br>-->
-<!--        <label>Length </label>-->
-<!--        <input type="length" field="*{length}" name="length" />-->
-<!--        <br><br>-->
-<!--        <label>imageUrl </label>-->
-<!--        <input type="imageUrl" field="*{imageUrl}" name="imageUrl" />-->
-<!--        <br><br>-->
-<!--        <input type="submit" value="add album">-->
-<!--    </fieldset>-->
-<!--</form>-->
 <h1>Form</h1>
 <form action="#" th:action="@{/addAlbumsForm}" th:object="${Album}" method="post">
     <p>Title of Album: <input type="text" th:field="*{title}" /></p>

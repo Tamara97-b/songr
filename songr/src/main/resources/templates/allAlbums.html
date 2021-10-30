@@ -13,6 +13,7 @@
     </nav>
 </header>
 <h1>This Is The Most Famous Albums List</h1>
+
 <div th:each="album :${album}">
     <img th:src="${album.getImageUrl}">
     <ul>
@@ -20,6 +21,8 @@
         <li>Artist: <span th:text="${album.getArtist}"></span></li>
         <li> Number of songs: <span th:text="${album.getSongCount}"></span></li>
         <li>Album length in seconds: <span th:text="${album.getLength}"></span></li>
+        <a th:href="'song/' + ${album.getId()}" th:text="'Add New Song to ' + ${album.getTitle()}" ></a>
+
     </ul>
 
 </div>

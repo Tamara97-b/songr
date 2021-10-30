@@ -6,11 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="fa4c6b4d-6d22-4a75-b36d-25e0374a5b19" name="Changes" comment="done">
       <changelist_data name="tamara97.b" email="tamarabassam1997@icloud.com" />
-      <change afterPath="$PROJECT_DIR$/songr/src/main/java/com/example/songr/Repositories/SongRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/songr/src/main/java/com/example/songr/controler/SongsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/songr/src/main/resources/templates/song.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/songr/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/songr/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songr/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/songr/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songr/src/main/java/com/example/songr/Repositories/AlbumRepositories.java" beforeDir="false" afterPath="$PROJECT_DIR$/songr/src/main/java/com/example/songr/Repositories/AlbumRepositories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songr/src/main/java/com/example/songr/Repositories/SongRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/songr/src/main/java/com/example/songr/Repositories/SongRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songr/src/main/java/com/example/songr/controler/SongsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/songr/src/main/java/com/example/songr/controler/SongsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/songr/src/main/java/com/example/songr/model/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/songr/src/main/java/com/example/songr/model/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songr/src/main/java/com/example/songr/model/Songs.java" beforeDir="false" afterPath="$PROJECT_DIR$/songr/src/main/java/com/example/songr/model/Songs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songr/src/main/resources/templates/allAlbums.html" beforeDir="false" afterPath="$PROJECT_DIR$/songr/src/main/resources/templates/allAlbums.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songr/src/main/resources/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/songr/src/main/resources/templates/form.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +42,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>

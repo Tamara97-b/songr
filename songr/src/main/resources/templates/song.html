@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/song/addSong/" method="POST">
+    <label>Album Title:</label>
+    <input type="text" name="album" th:value="${album.getTitle()}"  required readonly> <br>
+    <label>Title:</label>
+    <input type="text" name="title"  required> <br>
+    <label>Length:</label>
+    <input type="number" name="length" required> <br>
+    <label>Track Number:</label>
+    <input type="number" name="trackNumber"  required> <br>
+    <input type="submit" >
+</form>
+<div th:each="song :${album.songs}">
+    <li>Song Title: <span th:text="${song.title}"></span></li>
+    <li>length <span th:text="${song.length}"></span></li>
+    <li> number tracker <span th:text="${song.trackNumber}"></span></li>
+</div>
+
+</body>
+</html>
