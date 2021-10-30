@@ -8,7 +8,7 @@ public class Album {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    @OneToMany(mappedBy = "albumSong")
+    @OneToMany(mappedBy = "album")
     List<Songs>  songs ;
 
     private String title;
@@ -26,6 +26,14 @@ public class Album {
     }
     public Album(){
 
+    }
+
+    public List<Songs> getSongs() {
+        return songs;
+    }
+
+    public void setSongs(List<Songs> songs) {
+        this.songs = songs;
     }
 
     public int getId() {

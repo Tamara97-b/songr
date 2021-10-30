@@ -11,16 +11,30 @@ public class Songs {
     private int length ;
     private  int trackNumber;
     @ManyToOne
-    private Album albumSong;
+    private Album album;
 
-    public Songs(String title, int length, int trackNumber) {
+
+    public Songs(String title, int length, int trackNumber, Album album) {
         this.title = title;
         this.length = length;
         this.trackNumber = trackNumber;
+        this.album = album;
     }
 
     public Songs(){
 
+    }
+
+    public Album getAlbum() {
+        return album;
+    }
+
+    public void setAlbum(Album album) {
+        this.album = album;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public String getTitle() {
